@@ -1,2 +1,3 @@
-# login-fb-with-accesstoken
-The Chrome Extension help you login to Facebook with only access token.
+# Login Facebook with access_token
+### Install
+Open [chrome://extensions/](chrome://extensions) on your Chrome window, click "LOAD UNPACKED" then browse source code folder.
