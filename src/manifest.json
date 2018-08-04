@@ -1,0 +1,17 @@
+{
+    "name":"Login Facebook with Access Token",
+    "description":"Login Facebook without email and password",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"popup.png"
+    },
+    "permissions":[
+        "tabs",
+        "cookies",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://fonts.googleapis.com blob: filesystem: chrome-extension-resource:; object-src 'self'"
+}

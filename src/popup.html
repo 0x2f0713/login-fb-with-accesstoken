@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="mdc.css">
+    <link rel="stylesheet" href="popup.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto');
+    </style>
+    <script src="mdc.js"></script>
+    <script src="popup.js"></script>
+    <script src="jquery-2.1.1.min.js"></script>
+    <style>
+        body {
+            width: 600px;
+            height: 100px;
+        }
+
+        h3 {
+            text-align: center
+        }
+        div#button {
+            position: relative;
+        }
+        .mdc-button {
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            margin: 4px auto;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="mdc-typography--subtitle1 mdc-typography">Login Facebook with Access Token</h3>
+    <div class="text-field-container mdc-typography">
+        <div class="mdc-text-field text-field mdc-text-field--fullwidth mdc-text-field--upgraded">
+            <input type="text" id="text-field-fullwidth" placeholder="Paste your Access Token at here" class="mdc-text-field__input">
+        </div>
+    </div>
+    <div id="button">
+        <button class="mdc-button mdc-button--unelevated mdc-typography" type="submit">
+            Login
+        </button>
+    </div>
+
+
+</body>
+
+</html>
